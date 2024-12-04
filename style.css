@@ -1,0 +1,66 @@
+body{background-color: lemonchiffon;}
+
+h1{color: saddlebrown;
+font-style: oblique;
+}
+nav a {color: black;}
+ul { display:flex;
+    justify-content:center;
+}
+
+
+ul{ list-style: none;}
+p a{color: saddlebrown;}
+
+img{padding: 1cm;
+background-color: moccasin;
+transition:all 2s;
+margin-top: 5em;
+}
+img:hover { 
+    transform: rotate(360deg)
+}
+header{
+    overflow:hidden;
+    background-color: rgb(167, 146, 123);
+    padding: 1em;
+    border: 0cap;
+    border-radius: 3em;
+}
+header a.home {
+    float: middle;
+    color: rgb(210, 219, 144);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    line-height: 1em;
+    padding: 1em;
+
+}
+header a.overons {
+    float: middle;
+    color: rgb(210, 219, 144);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    line-height: 1em;
+    border-radius: 1em;
+    padding: 1em;
+
+}
+header a.afleveringen {
+    float: middle;
+    color: rgb(210, 219, 144);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    line-height: 1em;
+    border-radius: 1em;
+    padding: 1em;
+
+}
+header a:hover {
+    background-color: cornsilk;
+    border: 0.5em;
+   border-radius: 1em;
+}
